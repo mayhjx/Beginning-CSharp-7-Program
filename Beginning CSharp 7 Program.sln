@@ -35,17 +35,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch06LocalFunction", "Ch06Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch06VariableScope", "Ch06VariableScope\Ch06VariableScope.csproj", "{64D2EF2C-7590-45FA-A90F-15BCF47D9699}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06StructFunction", "Ch06StructFunction\Ch06StructFunction.csproj", "{D412FE26-4272-4CBF-A24C-C7477F05079A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch06StructFunction", "Ch06StructFunction\Ch06StructFunction.csproj", "{D412FE26-4272-4CBF-A24C-C7477F05079A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06OverloadingFunctions", "Ch06OverloadingFunctions\Ch06OverloadingFunctions.csproj", "{39F20F56-8C9A-49F7-ABD3-54B312AA5FBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch06OverloadingFunctions", "Ch06OverloadingFunctions\Ch06OverloadingFunctions.csproj", "{39F20F56-8C9A-49F7-ABD3-54B312AA5FBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Delegates", "Ch06Delegates\Ch06Delegates.csproj", "{77FA5121-AF23-41DA-938E-E7B303933956}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch06Delegates", "Ch06Delegates\Ch06Delegates.csproj", "{77FA5121-AF23-41DA-938E-E7B303933956}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Ex62", "Ch06Exercises\Ch06Ex62.csproj", "{057C7618-3CC0-4596-9203-0CB835606C94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch06Ex62", "Ch06Exercises\Ch06Ex62.csproj", "{057C7618-3CC0-4596-9203-0CB835606C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Ex63", "Ch06Ex63\Ch06Ex63.csproj", "{3E7635CA-A29E-4E8B-A4FE-C08A18930560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch06Ex63", "Ch06Ex63\Ch06Ex63.csproj", "{3E7635CA-A29E-4E8B-A4FE-C08A18930560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Ex64", "Ch06Ex64\Ch06Ex64.csproj", "{C63FB2BA-90B0-4E49-8F79-FA3CE348A54B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch06Ex64", "Ch06Ex64\Ch06Ex64.csproj", "{C63FB2BA-90B0-4E49-8F79-FA3CE348A54B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07Ex01", "Ch07Ex01\Ch07Ex01.csproj", "{C5AAFD31-7999-4512-BAF8-0F91DE5A0ADF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{C63FB2BA-90B0-4E49-8F79-FA3CE348A54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C63FB2BA-90B0-4E49-8F79-FA3CE348A54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C63FB2BA-90B0-4E49-8F79-FA3CE348A54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5AAFD31-7999-4512-BAF8-0F91DE5A0ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5AAFD31-7999-4512-BAF8-0F91DE5A0ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5AAFD31-7999-4512-BAF8-0F91DE5A0ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5AAFD31-7999-4512-BAF8-0F91DE5A0ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
