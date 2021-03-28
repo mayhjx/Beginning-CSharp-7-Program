@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ch06Ex62": {
+      "commandName": "Project",
+      "commandLineArgs": "text 1"
+    }
+  }
+}
