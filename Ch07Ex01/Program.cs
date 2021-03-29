@@ -21,6 +21,7 @@ namespace Ch07Ex01
             Debug.WriteLine("Maximum value search started");
             indices = new int[1];
             int maxVal = integers[0];
+            indices[0] = 0;
             int count = 1;
             Debug.WriteLine(
                 $"Maximum value initialized to {maxVal}, at element index 0.");
