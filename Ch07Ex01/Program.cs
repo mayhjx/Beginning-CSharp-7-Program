@@ -28,6 +28,7 @@ namespace Ch07Ex01
 
             for (int i = 1; i < integers.Length; i++)
             {
+                //Debug.Assert(i == 5, "i equal to 5", "assertion occurred");
                 Debug.WriteLine($"Now looking at element at index {i}");
                 if (integers[i] > maxVal)
                 {
