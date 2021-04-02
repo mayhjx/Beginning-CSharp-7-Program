@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Ch09Ex94">
+      <HintPath>..\Ch09Ex94\bin\Debug\net5.0\Ch09Ex94.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
