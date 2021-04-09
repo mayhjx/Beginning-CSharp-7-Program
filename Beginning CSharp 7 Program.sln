@@ -103,13 +103,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch11Ex04", "Ch11Ex04\Ch11Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch11OperatorOverloading", "Ch11OperatorOverloading\Ch11OperatorOverloading.csproj", "{F80EAFB6-BDC9-46D3-BD31-5F558B94A3B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch11Ex05", "Ch11Ex05\Ch11Ex05.csproj", "{435B6F5F-790E-40C7-B33D-FE32D06AA8E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch11Ex05", "Ch11Ex05\Ch11Ex05.csproj", "{435B6F5F-790E-40C7-B33D-FE32D06AA8E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch10CardLib", "Ch10CardLib\Ch10CardLib.csproj", "{72EB9207-886D-4003-AFC1-F81CA1FAB7E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch11Conversions", "Ch11Conversions\Ch11Conversions.csproj", "{FCA41C96-ADE8-4DF5-9137-1EF733C14CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch11Conversions", "Ch11Conversions\Ch11Conversions.csproj", "{FCA41C96-ADE8-4DF5-9137-1EF733C14CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch11ExAll", "Ch11Ex111\Ch11ExAll.csproj", "{7E0D1A50-A937-44A9-9E4A-B5BE1C7015DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch11ExAll", "Ch11Ex111\Ch11ExAll.csproj", "{7E0D1A50-A937-44A9-9E4A-B5BE1C7015DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Note", "Note", "{D2414E65-A4CF-4B93-9569-824BD83194A4}"
+	ProjectSection(SolutionItems) = preProject
+		Ch11.md = Ch11.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
