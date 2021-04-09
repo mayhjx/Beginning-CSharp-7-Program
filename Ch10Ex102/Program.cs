@@ -14,6 +14,6 @@ namespace Ch10Ex102
     class MyDerivedClass : MyClass
     {
         public override string GetString() =>
-            base.GetString() + " (output from derived class)"; ;
+            base.GetString() + " (output from derived class)";
     }
 }
