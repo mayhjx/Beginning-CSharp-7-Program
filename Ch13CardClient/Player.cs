@@ -19,6 +19,8 @@ namespace Ch13CardClient
         }
         public bool HasWon()
         {
+            // returns true if all the cards in the player’s hand
+            // are the same suit(a simple winning condition, but that doesn’t matter too much).
             bool won = true;
             Suit match = PlayHand[0].suit;
             for (int i = 1; i < PlayHand.Count; i++)
