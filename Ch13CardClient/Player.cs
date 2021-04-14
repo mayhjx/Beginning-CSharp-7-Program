@@ -20,12 +20,23 @@ namespace Ch13CardClient
         public bool HasWon()
         {
             // returns true if all the cards in the player’s hand
-            // are the same suit(a simple winning condition, but that doesn’t matter too much).
+            // are the same suit(a simple winning condition,
+            // but that doesn’t matter too much).
+
+            // Exercise:
+            // Can you think of a way that you could make this code more efficient,
+            // perhaps without having to examine every card in the player’s hand
+            // every time this method is called ?
+
             bool won = true;
             Suit match = PlayHand[0].suit;
             for (int i = 1; i < PlayHand.Count; i++)
             {
                 won &= PlayHand[i].suit == match;
+                if (won == false) // if false, immediately return 
+                {
+                    return won;
+                }
             }
             return won;
         }

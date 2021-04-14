@@ -127,7 +127,7 @@ namespace Ch13CardClient
                     } while (inputOK == false);
 
                     WriteLine("New hand:");
-                    for(int i = 0; i< players[currentPlayer].PlayHand.Count; i++)
+                    for (int i = 0; i < players[currentPlayer].PlayHand.Count; i++)
                     {
                         WriteLine($"{i + 1}: {players[currentPlayer].PlayHand[i]}");
                     }
@@ -140,7 +140,7 @@ namespace Ch13CardClient
                         try
                         {
                             choice = Convert.ToInt32(input);
-                            if((choice > 0) && (choice <= 8))
+                            if ((choice > 0) && (choice <= 8))
                             {
                                 inputOK = true;
                             }
