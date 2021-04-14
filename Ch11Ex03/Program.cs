@@ -55,5 +55,26 @@ namespace Ch11Ex03
                 Console.Write($"{i} ");
             }
         }
+
+        public static bool IsPrimeNum(int theValue)
+        {
+            if (theValue % 2 == 0)
+                return theValue == 2;
+            if (theValue % 3 == 0)
+                return theValue == 3;
+            if (theValue % 5 == 0)
+                return theValue == 5;
+
+            int i;
+            int bound = (int)Math.Sqrt(theValue);
+            for (i = 7; i <= bound; i += 2)
+            {
+                if (theValue % i == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
