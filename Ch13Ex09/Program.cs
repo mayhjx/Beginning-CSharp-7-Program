@@ -12,6 +12,7 @@ namespace Ch13Ex09
 
             WriteLine(people.Aggregate(
                 (a, b) => a + " " + b));
+            // same as string.Join()
 
             WriteLine(people.Aggregate<string, int>(
                 0,
