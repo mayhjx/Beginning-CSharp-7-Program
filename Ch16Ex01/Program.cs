@@ -8,7 +8,7 @@ namespace Ch16Ex01
     {
         static void Main(string[] args)
         {
-            string connectionString = "DefaultEndpointsProtocol=https;AccountName=cloudshell739151656;AccountKey=celf6XA0ZNF/TkUClNnmpwFyXIIYwZ/nupe6JRduICgKIdQsvvxzyfQtw9iCJgu1mnEDGp8HI6F90JOQOVpyhg==;EndpointSuffix=core.windows.net";
+            string connectionString = "";
             string containerName = "cloudshell739151656";
 
             BlobContainerClient container = new BlobContainerClient(connectionString, containerName);
